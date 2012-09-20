@@ -1,17 +1,22 @@
+.contact{
+	font-size: 16px;
+	font-style: italic;
+	color: #ff4900;
+}
+
 #hours {
-    background-color: red;
+    background-color: #ff4900;
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 300px;
-    color: yellow;
-    type-size: 16.5px;
+    width: 300px;;
+    font-size: 16.5px;
      
 }
 
-.h3 {
+#hours-type {
     font-size: 36px;
-    
+    color: #ffc800;   
 }
 
 .day {
@@ -26,38 +31,60 @@
      font-size; 13.6;   
 }
 
+#reservation {
+	 color: #ff4900;
+     font-size: 16px; 
+     background: #ffc800;
+     padding: 10px;
+     width: 100px;
+     height: 25px;
+     }
+
 .down-arrow {
-     color: #fff; 
+     color: #fff;
     
 }
 
 #menu-title {
-     color: yellow;
+     color: #ff4900;
      font-size: 37.8px; 
-     background: red;
+     background: #ffc800;
      padding: 10px;   
 }
 
 .menu-section {
     font-size: 21.5px;
-    color: #000;
+    color: #fff;
     margin-top: 20px;
+    background: #ff4900;
+    width: 90%;
+    margin-left: 20px;
+    padding-left: 10px;
 }
     
 .menu-item {
     font-size: 11px;
     font-style: bold;
+    color: #ff4900;
+    background: #ffc800;
     margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-right: 20px;
+    padding-right: 10px;
+
+
 }
     
 .item-desc {
-    font-size:11
-    color: #000;
-
+    font-size: 11px;
+    color: #ff4900;
+   
 }
 
 .item-cost {
     font-style:italic;
+    color: #ff4900;
     margin-left: 50px;
 }
 ​
