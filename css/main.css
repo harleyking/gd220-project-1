@@ -1,3 +1,8 @@
+body {
+	background-image: url("lightpaperfibers.png");
+	background-repeat: repeat;
+}
+
 .contact{
 	font-size: 16px;
 	font-style: italic;
@@ -31,7 +36,7 @@
 .open-hours {
      color: #fff;
      font-style: italic;
-     font-size; 13.6;   
+     font-size; 13.6;  
 }
 
 #reservation {
@@ -70,14 +75,12 @@
     
 .menu-item {
     font-size: 11px;
-    font-style: bold;
     color: #ff4900;
     background: #ffc800;
-    margin-top: 20px;
     margin-left: 20px;
-    padding-left: 20px;
+    padding-left: 30px;
     margin-right: 20px;
-    padding-right: 10px;
+    padding-right: 30px;
 
 
 }
