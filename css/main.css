@@ -3,112 +3,453 @@ body {
 	background-repeat: repeat;
 }
 
+#logo {
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+
+.icon-map-marker {
+	padding-right: 5px;
+}
+
+.icon-phone {
+	padding-right: 5px;
+}
+
 .contact{
-	font-size: 16px;
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
 	font-style: italic;
 	color: rgb(233,78,28);
-	margin-bottom: 0;
-	line-height: 20px;
-	padding-left: 80px;
-	padding-right: 80px;
+	line-height: 16px;
+	padding: 0px 20px;
+	margin-bottom: 0px;
 }
+
+.contact, address {
+	padding-bottom: 5px;
+}
+
+.contact a {
+	text-decoration: none;
+	color: rgb(233,78,28);
+}
+
+.contact a:hover { color: rgb(254,206,77); }
 
 #hours {
     background-color: rgb(233,78,28);
-    padding: 15px;
-    margin-left: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 300px;;
-    font-size: 16.5px;   
+    width: 245px;
+    margin: 5px 20px 5px 20px;
+    padding: 10px 10px 10px 10px;
 }
 
 #hours-type {
-    font-size: 36px;
-    color: #ffc800; 
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight:700;
+    font-size: 22px;
+    line-height: .6;
+    color: rgb(254,206,77); 
     text-align: center;  
 }
 
+hr {
+	border-color: rgb(254,206,77);
+	margin-bottom: 7px;
+}	
+
 .day {
-     color: #fff; 
-     font-style: bold;
-     font-size: 14.8px;   
+	font-family:lato, helvetica, arial, sans-serif;
+	font-weight:400;
+    color: #fff; 
+    font-size: 15px; 
+    margin-bottom: 0px;
+  	padding: 0px 5px 0px 0px;
 }
 
 .open-hours {
-     color: #fff;
-     font-style: italic;
-     font-size; 13.6;  
-     text-align: -moz-right;
+	font-family:lato, helvetica, arial, sans-serif;
+	font-weight:400;
+    color: #fff;
+    display: inline-block;
+    float: right;
+    font-style: italic;
+    font-size: 15px; 
+}
+
+#hours ul {
+	margin-bottom: 0px;
+}
+
+#social a {
+	text-decoration: none;
+	color: rgb(233,78,28);
+	font-size: 65px;
+}
+
+#social a:hover { color: rgb(254,206,77); }
+
+.icon-twitter-sign {
+	padding-left: 10px;
+}
+
+.icon-facebook-sign {
+	padding-left: 20px;
+}
+
+#reservation, #social {
+	float:left;
+	width:45%;
+	
+}
+
+#about {
+     background: rgb(254,206,77);
+     padding: 20px;
+     padding-top: 5px;
+     margin: 5px 20px 0px 0px;
+     text-align: center;
+     width: 50px;
+     height: 25px;
+     float:right;
+     }
+     
+#about a {
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight:700;
+	font-size: 18px; 
+	color: rgb(233,78,28);
+	text-decoration: none;
 }
 
 #reservation {
-	 color: #ff4900;
-     font-size: 16px; 
-     background: #ffc800;
-     margin-left: 250px;
-     padding: 10px;
+     background: rgb(254,206,77);
+     padding: 20px;
+     padding-top: 5px;
+     margin: 5px 20px 0px 0px;
      text-align: center;
      width: 100px;
      height: 25px;
+     float:right;
      }
+     
+#reservation a {
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight:700;
+	font-size: 18px; 
+	color: rgb(233,78,28);
+	text-decoration: none;
+}
+
+#reservation:hover, #about:hover {background: rgb(233,78,28);}
+
+#reservation a:hover, #about a:hover {color: rgb(254,206,77)}
+
+.photo {
+	border: 5px double rgb(233,78,28);
+	margin: 0px 40px 10px 0px;
+	max-width: 100%;
+}
+
+#photos {
+	margin-bottom: 20px;
+	max-width: 100%;
+
+}
 
 .down-arrow {
-     color: #fff;
-    
+	font-family: lato, helvetica, arial, sans-serif;
+	font-style:normal;
+	font-weight: bold;
+    color: #fff;
+    text-decoration: none;
 }
 
 #menu-title {
-     color: rgb(233,78,28);
-     font-size: 37.8px; 
-     background: #ffc800;
-     padding: 10px;
-     text-align: center;   
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight: 700;
+    color: rgb(233,78,28);
+    font-size: 38px; 
+    background: rgb(254,206,77);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;   
+}
+
+#menu-title a {
+	color: rgb(233,78,28);
+	text-decoration: none;
 }
 
 .menu-section {
-    font-size: 21.5px;
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight: 700;
+    font-size: 24px;
     color: #fff;
-    margin-top: 20px;
     background: rgb(233,78,28);
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 0px;
-    padding-right: 30px;
-    margin: 0 20px;
+    padding: 15px 0px 5px 25px;
+    margin: 0 20px 0px 0px;
 }
-    
+
+.up-arrow {
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    font-style: normal;
+    float: right;
+    padding: 0px 0px 7px 20px;
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.menu-section a {
+	text-decoration: none;
+
+}
+
+.up-arrow:hover {
+	color: rgb(254,206,77);
+}
+
+.menu-list {
+	background: rgb(252,235,185);
+	border-left: 10px solid rgb(254,206,77);
+	border-right: 10px solid rgb(254,206,77);
+	border-bottom: 10px solid rgb(254,206,77);
+	margin: 0px 20px 0px 0px;
+	padding-bottom: 10px;
+}
+
 .menu-list li {
-    background: #ffc800;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 0px;
-    padding-right: 30px;
-    padding-bottom:;
+    margin-bottom: 0px;
+    padding: 10px 15px 0px 15px;
 }
 
 .menu-list h4 {
-	font-size: 11px;
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight: 700;
+	font-size: 12px;
     color: rgb(233,78,28);
+    margin-bottom: 0px;
+    line-height: 1.5;    
 }
     
 .menu-list p {
-font-family: "Lato" , helvetica, arial, sans-serif;
-    font-size: 11px;
-    font-weight: 700;
+	font-family: lato, helvetica, arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
     color: rgb(233,78,28);
-   
+    line-height: 1.5;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
 }
 
 .item-cost {
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight: 400;
 	display: inline-block;
 	float: right;
 	width: 100px;
     font-style:italic;
     color: rgb(233,78,28);
-    margin-left: 50px;
+    margin-left: 0px;
     text-align: right;
 }
-​
+
+.special-item-cost {
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight: 400;
+	font-style:italic;
+    color: rgb(233,78,28);
+}
+
+.about-sub {
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	font-style: none;
+    color: rgb(233,78,28);
+    margin: 10px 0px 0px 0px;
+    }
+    
+.about-desc {
+	background: rgb(252,235,185);
+	border-left: 10px solid rgb(254,206,77);
+	border-right: 10px solid rgb(254,206,77);
+	border-bottom: 10px solid rgb(254,206,77);
+	margin: 0 20px 0px 0px;
+	padding-bottom: 10px;
+}
+
+.about-desc li {
+    margin-bottom: 0px;
+    padding: 10px 15px 0px 15px;
+}
+
+.about-desc h4 {
+	font-family: lato, helvetica, arial, sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+    color: rgb(233,78,28);
+    margin-bottom: 9px;
+    line-height: 1.5;    
+}
+
+@media screen and (max-width: 480px) {
+	#photos {display:none;}
+	#about {display:none;}
+
+	.menu-section,
+	.menu-list {
+		margin: 0px 10px;
+		} 
+		
+	.up-arrow {display:none;}
+}
+
+@media screen and (min-width: 766px) and (max-width: 959px) {
+	.photo {
+		position: relative;
+		width: 97.5%;
+		left: 10%,
+	}
+	.contact {
+		position: relative;
+		left: 30%;
+	}
+	#hours {
+		position: relative;
+		left: 30%;
+	}
+	#social {
+		position: relative;
+		float: left;
+		left: 25%;
+		margin-right: 0px;
+	}
+	#reservations, #about {
+		position:relative;
+		float:right;
+	}
+
+	.menu-section,
+	.menu-list {
+		margin: 0px 10px;
+		} 
+}
+
+@media screen and (min-width: 481px) and (max-width: 765px) {
+	.photo {
+		position: relative;
+		width: 97.5%;
+		left: 10%,
+	}
+	.contact {
+		position: relative;
+		left: 14%;
+	}
+	#hours {
+		position: relative;
+		left: 14%;
+	}
+	#social {
+		position: relative;
+		float: left;
+	}
+	#reservations, #about {
+		position: relative;
+		float: right;
+		
+	}
+	
+
+	.menu-section,
+	.menu-list {
+		margin: 0 10px;
+		} 
+}
+
+
+@media screen and (min-width: 960px) {
+/* this is a comment */
+
+	.header {
+		position: relative;
+		overflow: hidden;
+	}
+	#logo {
+		float: left;
+		width: 264px;
+		margin-top: 20px;
+
+	}
+	#hours {
+		float: right;
+		width: 245px;
+		margin-top: 20px;
+	}
+	.contact-info{
+		position: absolute;
+		top: 23px;
+		left: 267px;
+	}
+	#social {
+		position: absolute;
+		top: 20px;
+		left: 490px;
+	}
+
+	#nav {
+		position: absolute;
+		bottom: 0;
+		left: 40%;
+		top: 92px;
+	}
+	#reservation,
+	#about {
+		margin: 0px 13px 0px 14px;
+		padding: 4px 20px 18px 20px;
+		height: 12px;
+	}
+	#reservation h3,
+	#about h3 {
+		line-height: 18px;
+	}
+	#menu-title {
+		position: absolute;
+		top: 92px;
+		left: 29.75%;
+		font-size: 18px;
+		padding: 7px 20px 12px 20px;
+		height: 15px;
+		line-height: 1;
+	}
+	
+	#menu-title:hover {background: rgb(233,78,28);}
+
+	#menu-title a:hover {color: rgb(254,206,77)}
+
+	.btn {
+		margin: 0px 5px 0px 5px;
+	}
+	.down-arrow {
+		display:none;
+	}
+	#photos {
+		padding-left: 0px;
+	}
+
+/*
+	.menu-list {
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		-moz-column-gap: 0px;
+		-webkit-column-gap: 0px;
+		-moz-column-span: 1;
+		-webkit-column-span: 1;
+	}
+*/
+}
